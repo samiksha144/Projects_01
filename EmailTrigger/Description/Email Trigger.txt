@@ -1,0 +1,28 @@
+1.) Email trigger project will trigger an email to product owner and distribution list.
+
+2.) "get_pwd_expiry_date" stored procedure will fetch all the records from database whose password is going to expire within one month.
+
+3.) If password has expired or if it is expiring within 7 days, then it will show red colour.
+
+4.) If password is expiring in 8-15 days, then it will show amber colour.
+
+5.) If password is expiring in 16-30 days, then it will show yellow colour.
+
+6.) System names will be printed on subject line, for particular login names whose password is expiring.
+
+
+To generate temporary password from gmail account :
+
+1.) Go to Manage your Google account.
+
+2.) Security.
+
+3.) 2-Step verification. 
+
+4.) After doing 2-Step verification, go to App passwords.
+
+5.) In App passwords, select Mail and Windows Computer from dropdown menu.
+
+6.) Password will be generated, copy that password and paste in yourPassword in C# code.
+
+
