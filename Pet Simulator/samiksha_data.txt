@@ -1,0 +1,6 @@
+Pet Owner Name: samiksha
+Pet Name: simba
+Hunger: 10
+Happiness: 90
+Cleanliness: 70
+Energy: 90
